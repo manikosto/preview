@@ -1,0 +1,11 @@
+{
+  "name": "preview",
+  "version": "0.1.0",
+  "description": "Live preview pane: the iOS simulator's screen or a web page, refreshed beside the transcript as Claude edits",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "simIntervalMs": { "type": "number", "title": "Simulator refresh (ms)", "description": "How often the simulator is captured while the pane is shown", "default": 1500 },
+    "webIntervalMs": { "type": "number", "title": "Web refresh (ms)", "description": "How often a web page is re-captured, besides after each edit", "default": 10000 },
+    "widthPercent": { "type": "number", "title": "Pane width (%)", "description": "Share of the terminal the docked pane asks for", "default": 30 }
+  }
+}

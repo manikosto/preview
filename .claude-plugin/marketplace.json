@@ -1,0 +1,20 @@
+{
+  "name": "preview",
+  "owner": {
+    "name": "manikosto",
+    "url": "https://github.com/manikosto"
+  },
+  "description": "Live preview pane: the iOS simulator's screen or a web page, refreshed beside the transcript as Claude edits",
+  "plugins": [
+    {
+      "name": "preview",
+      "description": "Live preview pane: the iOS simulator's screen or a web page, refreshed beside the transcript as Claude edits",
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "mod",
+        "pane"
+      ]
+    }
+  ]
+}
